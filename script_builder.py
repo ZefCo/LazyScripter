@@ -1,19 +1,21 @@
 import os
+import getpass
 from sys import platform
 
-hello_world = '''
+hello_world =
+ '''
 import os
 from sys import platform
 
 
 def main():
-    # home = platformer()
-    # cdrive, ddrive = platformer()
+    # root = platformer()
+    # croot, droot = platformer()
     pass
 
 
 def platformer():
-    user: str = 'ethanspeakman'
+    user: str = getpass.getuser()
     if platform == 'linux' or platform == 'linux2':
         home: str = os.path.join('/', 'home', user)
 
