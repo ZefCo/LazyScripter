@@ -2,8 +2,8 @@ import os
 import getpass
 from sys import platform
 
-hello_world =
- '''
+hello_world = '''
+import getpass
 import os
 from sys import platform
 
